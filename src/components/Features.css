@@ -1,0 +1,68 @@
+h1 {
+    font-family: "Space Mono", monospace;
+    color: #36D709;
+    padding-bottom: 40px;
+    font-size: 3.5rem;
+}
+
+.features {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    width: 100vw;
+    padding-top: 44px;
+    padding-bottom: 24px;
+}
+
+button {
+    background-color: #CC11D2;
+    font-family: "Space Mono", monospace;
+    padding: 16px;
+    width: 260px;
+    border: 1px solid #CC11D2;
+    place-self: center;
+    margin-bottom: 36px;
+}
+
+.count {
+    color: #09ECF8;
+    font-weight: 700;
+    font-size: 16px;
+    margin-left: 16px;
+}
+
+.features-container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+    margin-top: 36px;
+}
+
+img {
+    display: block;
+    height: 320px;
+    width: 320px;
+    border-radius: 5px;
+    object-fit: cover;
+    justify-self: center;
+    padding-top: 16px;
+}
+
+
+
+@media (max-width: 568px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    .features-container {
+        display: grid;
+        grid-template-columns: 1fr;
+
+    }
+
+    img {
+        margin-bottom: 24px;
+    }
+}

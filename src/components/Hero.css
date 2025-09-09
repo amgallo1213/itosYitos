@@ -1,0 +1,50 @@
+h1  {
+    font-family: "Space Mono", monospace;
+    color: #36D709;
+    padding-bottom: 40px;
+    font-size: 3.5rem;
+}
+
+.hero   {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    padding-bottom: 24px;
+}
+
+.hero-container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+    
+}
+
+img {
+    display: block;
+    height: 320px;
+    width: 320px;
+    border-radius: 5px;
+    object-fit: cover;
+    justify-self: center;
+}
+
+
+
+
+
+
+@media  (max-width: 568px) {
+    h1  {
+        font-size: 2.5rem;
+    }
+
+    .hero-container    {
+        display: grid;
+        grid-template-columns: 1fr;
+
+    }
+    img     {
+        margin-bottom: 24px;
+    }
+}
